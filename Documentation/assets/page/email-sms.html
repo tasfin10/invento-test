@@ -1,0 +1,269 @@
+<!-- meta tags and other links -->
+<!-- Header -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Documentation</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../images/logo/favicon.png">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="../css/fontawesome-all.min.css">
+    <!-- lightbox -->
+    <link rel="stylesheet" href="../css/lightbox.min.css">
+    <!-- Main css -->
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    
+<!--==================== Preloader Start ====================-->
+<div class="preloader">
+    <div class="loader-p"></div>
+</div>
+<!--==================== Preloader End ====================-->
+
+<!--==================== Overlay Start ====================-->
+<div class="body-overlay"></div>
+<!--==================== Overlay End ====================-->
+
+<!--==================== Sidebar Overlay End ====================-->
+<div class="sidebar-overlay"></div>
+<!--==================== Sidebar Overlay End ====================-->
+
+<!-- ==================== Scroll to Top End Here ==================== -->
+<a class="scroll-top"><i class="fas fa-angle-double-up"></i></a>
+<!-- ==================== Scroll to Top End Here ==================== -->
+<!-- ==================== Header Start Here ==================== -->
+<header class="header" id="header">
+    <div class="logo">
+        <a href="../../index.html"><img src="../images/logo/logo.png" alt="Logo"></a>
+    </div>
+    <button class="btn btn--icon btn--base sidebar-toggler d-lg-none d-block"><i class="fas fa-bars"></i></button>
+    <div class="header__right d-lg-flex d-none">
+        <div class="form">
+            <input type="search" class="search-input" autocomplete="off" placeholder="Search menu">
+            <ul class="search-results d-none"></ul>
+        </div>
+    </div>
+</header>
+<!-- ==================== Header End Here ==================== -->
+<!-- ==================== Sidebar Start Here ==================== -->
+<div class="main-sidebar">
+        <div class="form d-lg-none d-block">
+            <input type="search" class="search-input" autocomplete="off" placeholder="Search menu">
+            <ul class="search-results d-none"></ul>
+        </div>
+        <ul class="sidebar-menu">
+            <li class="sidebar-item">
+                <a href="../../index.html" class="sidebar-link">
+                    <span class="nav-icon"><i class="fas fa-copy"></i></span>
+                    <span class="sidebar-txt">Introduction</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="server-requirement.html" class="sidebar-link">
+                    <span class="nav-icon"><i class="fas fa-server"></i></span>
+                    <span class="sidebar-txt">Server Requirements</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="how-to-install.html" class="sidebar-link">
+                    <span class="nav-icon"><i class="fas fa-cog"></i></span>
+                    <span class="sidebar-txt">How To Install</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="folder-structure.html" class="sidebar-link">
+                    <span class="nav-icon"><i class="fas fa-project-diagram"></i></span>
+                    <span class="sidebar-txt">Folder Structure</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="user-management.html" class="sidebar-link">
+                    <span class="nav-icon"><i class="fas fa-user-tie"></i></span>
+                    <span class="sidebar-txt">Users Management</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="basic-setting.html" class="sidebar-link">
+                    <span class="nav-icon"><i class="fas fa-cogs"></i></span>
+                    <span class="sidebar-txt">Basic Setting</span>
+                </a>
+            </li>
+            <li class="sidebar-item">
+                <a href="email-sms.html" class="sidebar-link">
+                    <span class="nav-icon"><i class="fas fa-envelope"></i></span>
+                    <span class="sidebar-txt">Email & SMS Config</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+<!-- ==================== Sidebar End Here ==================== -->
+<!-- ==================== How To Install Start Here ==================== -->
+<div class="main-content">
+     <!-- ==================== Breadcrumb Start Here ==================== -->
+     <section class="breadcrumb">
+          <h1 class="breadcrumb__title"> Email and SMS Config </h1>
+          <p class="breadcrumb__desc">Tailoring Communication Hub</p>
+     </section>
+     <!-- ==================== Breadcrumb End Here ==================== -->
+     
+     <div class="row g-4 justify-content-between">
+          <div class="col-lg-8">
+               <h5 class="mb-2">Universal Template:</h5>
+
+               <ul class="list-styled">
+                    <li>
+                        <b>Email Sender</b> :
+                        <br>
+                        <small>
+                            Define the email sender address, ensuring uniformity in communication and enhancing user trust.
+                        </small>
+                    </li>
+                    <li>
+                        <b>SMS Sender</b> :
+                        <br>
+                        <small>
+                            Set the default sender for SMS messages, providing a recognizable source for users.
+                        </small>
+                    </li>
+                    <li>
+                        <b>Email Body</b> :
+                        <br>
+                        <small>
+                            Create and manage standardized email body for various events, streamlining communication and maintaining a professional image. We just given a sample.
+                        </small>
+                    </li>
+                    <li>
+                        <b>SMS Body</b> :
+                        <br>
+                        <small>
+                            Define body for SMS messages, ensuring clarity and consistency in text messages sent to users.
+                        </small>
+                    </li>
+                </ul>
+
+                <br>
+                <h5 class="mb-2">Email Configuration:</h5>
+                <p> Admins can input and manage necessary credentials for each email sending system, ensuring secure and seamless configuration.</p>
+                <ul class="list-styled">
+                    <li>
+                        <b>PHP Mail</b> :
+                        <br>
+                        <small>
+                            Integrate PHP mail for a straightforward and server-based email sending solution.
+                        </small>
+                    </li>
+                    <li>
+                        <b>SMTP Configuration</b> :
+                        <br>
+                        <small>
+                            Configure SMTP settings to enable reliable and secure email delivery, utilizing popular email services.
+                        </small>
+                    </li>
+                    <li>
+                        <b>SendGrid Configuration</b> :
+                        <br>
+                        <small>
+                            Integrate SendGrid for a scalable and efficient email delivery system, enhancing email reliability.
+                        </small>
+                    </li>
+                    <li>
+                        <b>Mailjet Configuration</b> :
+                        <br>
+                        <small>
+                            Configure Mailjet settings for powerful email delivery, optimizing email performance and deliverability.
+                        </small>
+                    </li>
+                </ul>
+
+                <br>
+                <h5 class="mb-2">SMS Configuration:</h5>
+                <p>Input and manage credentials for each SMS sending system, allowing admins to configure SMS services securely.</p>
+
+                <ul class="list-styled">
+                    <li>
+                        <b>Nexmo Configuration</b> :
+                        <br>
+                        <small>
+                            Integrate Nexmo for SMS delivery, providing global reach and reliable text message services.
+                        </small>
+                    </li>
+                    <li>
+                        <b>Twilio Configuration</b> :
+                        <br>
+                        <small>
+                            Configure Twilio settings for robust SMS delivery, ensuring a reliable and efficient messaging system.
+                        </small>
+                    </li>
+                    <li>
+                        <b>Custom API Configuration</b> :
+                        <br>
+                        <small>
+                            Admins can integrate custom SMS APIs, providing flexibility and customization for specific business requirements.
+                        </small>
+                    </li>
+                </ul>
+
+                <br>
+                <h5 class="mb-2">All Templates:</h5>
+
+                <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Admins can view a comprehensive list of all email templates, categorized based on events or user interactions.
+                </small>
+                <br>
+                <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Modify email bodies and messages directly from the Admin Panel, offering flexibility and customization.
+                </small>
+                <br>
+                <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Modify email bodies and messages directly from the Admin Panel, offering flexibility and customization.
+                </small>
+
+                <br>
+          </div>
+          <div class="col-lg-4">
+               <div>
+                    <div class="border rounded mb-4">
+                         <a class="screenshot-view" href="../images/thumbs/email_sms_one.png" data-lightbox="image-1">
+                              <img src="../images/thumbs/email_sms_one.png" alt="installation">
+                              <small class="text-dark text-center d-block"><b>Email SMS Config Image - One</b></small>
+                         </a>
+                    </div>
+                    <div class="border rounded mb-4">
+                         <a class="screenshot-view" href="../images/thumbs/email_sms_two.png" data-lightbox="image-1">
+                              <img src="../images/thumbs/email_sms_two.png" alt="installation">
+                              <small class="text-dark text-center d-block"><b>Email SMS Config Image - Two</b></small>
+                         </a>
+                    </div>
+                    <div class="border rounded mb-4">
+                         <a class="screenshot-view" href="../images/thumbs/email_sms_three.png" data-lightbox="image-1">
+                              <img src="../images/thumbs/email_sms_three.png" alt="installation">
+                              <small class="text-dark text-center d-block"><b>Email SMS Config Image - Three</b></small>
+                         </a>
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>
+<!-- ==================== How To Install End Here ==================== -->
+<!-- Footer -->
+
+     <!-- Jquery js -->
+     <script src="../js/jquery-3.7.1.min.js"></script>
+     <!-- Bootstrap Bundle Js -->
+     <script src="../js/boostrap.bundle.min.js"></script>
+     <!-- lightbox -->
+     <script src="../js/lightbox.min.js"></script>
+     <!-- main js -->
+     <script src="../js/main.js"></script>
+</body>
+</html>

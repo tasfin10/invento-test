@@ -1,0 +1,400 @@
+<!-- meta tags and other links -->
+<!-- Header -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Title -->
+     <title>Documentation</title>
+     <!-- Favicon -->
+     <link rel="shortcut icon" href="assets/images/logo/favicon.png">
+     <!-- Bootstrap -->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <!-- Fontawesome -->
+     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+     <!-- lightbox -->
+     <link rel="stylesheet" href="assets/css/lightbox.min.css">
+     <!-- Main css -->
+     <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+     <!--==================== Preloader Start ====================-->
+     <div class="preloader">
+          <div class="loader-p"></div>
+     </div>
+     <!--==================== Preloader End ====================-->
+
+     <!--==================== Overlay Start ====================-->
+     <div class="body-overlay"></div>
+     <!--==================== Overlay End ====================-->
+
+     <!--==================== Sidebar Overlay End ====================-->
+     <div class="sidebar-overlay"></div>
+     <!--==================== Sidebar Overlay End ====================-->
+
+     <!-- ==================== Scroll to Top End Here ==================== -->
+     <a class="scroll-top"><i class="fas fa-angle-double-up"></i></a>
+     <!-- ==================== Scroll to Top End Here ==================== -->
+     <!-- ==================== Header Start Here ==================== -->
+     <header class="header" id="header">
+          <div class="logo">
+               <a href="index.html"><img src="assets/images/logo/logo.png" alt="Logo"></a>
+          </div>
+          <button class="btn btn--icon btn--base sidebar-toggler d-lg-none d-block"><i class="fas fa-bars"></i></button>
+          <div class="header__right d-lg-flex d-none">
+               <div class="form">
+                    <input type="search" class="search-input" autocomplete="off" placeholder="Search menu">
+                    <ul class="search-results d-none"></ul>
+               </div>
+          </div>
+     </header>
+     <!-- ==================== Header End Here ==================== -->
+
+     <!-- ==================== Sidebar Start Here ==================== -->
+     <div class="main-sidebar">
+          <div class="form d-lg-none d-block">
+               <input type="search" class="search-input" autocomplete="off" placeholder="Search menu">
+               <ul class="search-results d-none"></ul>
+          </div>
+          <ul class="sidebar-menu">
+               <li class="sidebar-item open">
+                    <a href="index.html" class="sidebar-link">
+                         <span class="nav-icon"><i class="fas fa-copy"></i></span>
+                         <span class="sidebar-txt">Introduction</span>
+                    </a>
+               </li>
+               <li class="sidebar-item">
+                    <a href="assets/page/server-requirement.html" class="sidebar-link">
+                         <span class="nav-icon"><i class="fas fa-server"></i></span>
+                         <span class="sidebar-txt">Server Requirements</span>
+                    </a>
+               </li>
+               <li class="sidebar-item">
+                    <a href="assets/page/how-to-install.html" class="sidebar-link">
+                         <span class="nav-icon"><i class="fas fa-cog"></i></span>
+                         <span class="sidebar-txt">How To Install</span>
+                    </a>
+               </li>
+               <li class="sidebar-item">
+                    <a href="assets/page/folder-structure.html" class="sidebar-link">
+                         <span class="nav-icon"><i class="fas fa-project-diagram"></i></span>
+                         <span class="sidebar-txt">Folder Structure</span>
+                    </a>
+               </li>
+               <li class="sidebar-item">
+                    <a href="assets/page/user-management.html" class="sidebar-link">
+                         <span class="nav-icon"><i class="fas fa-user-tie"></i></span>
+                         <span class="sidebar-txt">Users Management</span>
+                    </a>
+               </li>
+               <li class="sidebar-item">
+                    <a href="assets/page/basic-setting.html" class="sidebar-link">
+                         <span class="nav-icon"><i class="fas fa-cogs"></i></span>
+                         <span class="sidebar-txt">Basic Setting</span>
+                    </a>
+               </li>
+               <li class="sidebar-item">
+                    <a href="assets/page/email-sms.html" class="sidebar-link">
+                         <span class="nav-icon"><i class="fas fa-envelope"></i></span>
+                         <span class="sidebar-txt">Email & SMS Config</span>
+                    </a>
+               </li>
+          </ul>
+     </div>
+     <!-- ==================== Sidebar End Here ==================== -->
+     <!-- ==================== Main Content Start Here ==================== -->
+     <div class="main-content">
+          <!-- ==================== Breadcrumb Start Here ==================== -->
+          <section class="breadcrumb">
+               <h1 class="breadcrumb__title">Invento Test</h1>
+               <p class="breadcrumb__desc">Multi-Tenant Flat & Bill Management System</p>
+          </section>
+
+          <p>The Flat & Bill Management System is a multi-tenant web application designed for property owners and administrators to manage flats, tenants, and billing efficiently. It provides a clear separation of roles between Admin and House Owner (User) with automated workflows such as tenant assignment, bill management, notifications, and record clean-up upon deletions.</p>
+
+          <br>
+
+          <h5 class="mb-2 border-botttom">Core Attributes:</h5>
+          <ul class="list-styled">
+               <li>
+                    <b>Admin</b> :
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Create and manage house owners (users).
+                    </small>
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Create and manage tenants.
+                    </small>
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Assign tenants to house owners based on flat availability.
+                    </small>
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Delete tenants (with auto-cleanup from assigned flats).
+                    </small>
+                    <br>
+               </li>
+
+               <li>
+                    <b>House Owner (User)</b> :
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Create and manage flats.
+                    </small>
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Assign admin-provided tenants to flats (one tenant per flat).
+                    </small>
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Create bill categories (e.g., gas, utility, electricity).
+                    </small>
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Create bills under flats (month-wise, amount, notes).
+                    </small>
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Update bill status: Due → Paid.
+                    </small>
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Delete flats (Tenant will be free to reassign by admin to houser onwer and relevant bills will also be removed).
+                    </small>
+                    <br>
+               </li>
+
+               <li>
+                    <b>Tenant</b> :
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Assigned to only one flat at a time.
+                    </small>
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Receives email notifications when a new bill is created, a bill is marked as paid.
+                    </small>
+                    <br>
+               </li>
+          </ul>
+
+          <h5 class="mb-2 border-botttom">Admin Worlflow:</h5>
+          <ul class="list-styled">
+               <li>
+               <b>Create User (House Owner)</b> :
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Inputs: username, email, name, country, mobile no, password.
+               </small>
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    System sends an email with credentials to the user.
+               </small>
+               <br>
+               </li>
+
+               <li>
+               <b>Create Tenant</b> :
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Tenant is stored in DB with status = unassigned.
+               </small>
+               <br>
+               </li>
+
+               <li>
+               <b>Assign Tenant to House Owner</b> :
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Validation: House owner must have at least one available flat.
+               </small>
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Tenant status changes to assigned.
+               </small>
+               <br>
+               </li>
+
+               <li>
+               <b>Delete Tenant</b> :
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Tenant record removed from tenants table.
+               </small>
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    If tenant was assigned, flat’s tenant reference is cleared.
+               </small>
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Tenant becomes free/unassigned in system.
+               </small>
+               <br>
+               </li>
+          </ul>
+
+          <h5 class="mb-2 border-botttom">House Owner Workflow:</h5>
+          <ul class="list-styled">
+               <li>
+               <b>Create Flat</b> :
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Inputs: flat number, details.
+               </small>
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Increases owner’s total flat count.
+               </small>
+               <br>
+               </li>
+
+               <li>
+               <b>Assign Tenant to Flat</b> :
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Only admin-provided tenants can be linked.
+               </small>
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    One flat = one tenant.
+               </small>
+               <br>
+               </li>
+
+               <li>
+               <b>Create Bill Category</b> :
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Examples: Gas Bill, Utility Bill, Electricity Bill.
+               </small>
+               <br>
+               </li>
+
+               <li>
+               <b>Create Bill</b> :
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Inputs: category, month, amount, notes (optional).
+               </small>
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Bill status = Due.
+               </small>
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    System notifies tenant via email.
+               </small>
+               <br>
+               </li>
+
+               <li>
+               <b>Mark Bill as Paid</b> :
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Updates bill status to Paid.
+               </small>
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    System sends notification email to tenant.
+               </small>
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    If multiple unpaid bills exist → total due is calculated under that flat.
+               </small>
+               <br>
+               </li>
+
+               <li>
+               <b>Delete Flat</b> :
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    Decreases owner’s flat count.
+               </small>
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    If a tenant was assigned → tenant becomes free/unassigned (available for reassignment).
+               </small>
+               <br>
+               <small>
+                    <i class="fas fa-share fs-10 text--base"></i>
+                    All bills under the flat are deleted.
+               </small>
+               <br>
+               </li>
+          </ul>
+
+          <h5 class="mb-2 border-botttom">Notifications Sending:</h5>
+          <ul class="list-styled">
+               <li>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         User Creation: Email sent with login credentials.
+                    </small>
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Bill Creation: Tenant receives bill details via email.
+                    </small>
+                    <br>
+                    <small>
+                         <i class="fas fa-share fs-10 text--base"></i>
+                         Bill Paid: Tenant notified that payment has been marked.
+                    </small>
+                    <br>
+               </li>
+          </ul>
+     </div>
+     <!-- ==================== Main Content End Here ==================== -->
+
+     <!-- Footer -->
+
+     <!-- Jquery js -->
+     <script src="assets/js/jquery-3.7.1.min.js"></script>
+     <!-- Bootstrap Bundle Js -->
+     <script src="assets/js/boostrap.bundle.min.js"></script>
+     <!-- lightbox -->
+     <script src="assets/js/lightbox.min.js"></script>
+     <!-- main js -->
+     <script src="assets/js/main.js"></script>
+</body>
+
+</html>

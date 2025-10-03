@@ -1,0 +1,317 @@
+:root{
+    --main: 115, 103, 240;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: #f6f6f6;
+    min-height: 100vh;
+}
+body > div,body > section {
+    width: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: #f6f6f6;
+    min-height: 100vh;
+}
+body > div,body > section {
+    width: 100%;
+}
+.custom--card {
+    box-shadow: 0 3px 35px rgba(0,0,0, .1);
+    border: 0;
+}
+.custom--card .card-header,.custom--card .card-footer  {
+    padding: 13px 25px;
+    text-align: center;
+    background-color: rgb(var(--main));
+    border: 0;
+}
+.custom--card .card-header .title {
+    margin-bottom: 0;
+    color: #fff
+}
+.custom--card .card-body {
+    padding: 25px;
+    border: 0;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #555;
+}
+.form--control.input,.form--control.select{
+    height: 45px;
+}
+.form--control {
+    border-width: 2px;
+    border-color: #dce1e6;
+}
+.form--control:focus {
+    border-color: rgb(var(--main));
+    box-shadow: 0 0 25px rgba(var(--main) 0.071);
+    outline: 0;
+}
+.forgot-pass {
+    font-size: 14px;
+}
+.btn--base {
+    color: #fff;
+    background-color: rgb(var(--main));
+}
+.btn--base:hover {
+    color: #fff;
+}
+.btn {
+    padding: 10px 30px;
+    font-weight: 500;
+}
+.home-link{
+    text-decoration: none
+}
+
+label.required:after{
+    content: '*';
+    color: #FB4D4D !important;
+    margin-left: 2px;
+}
+p {
+    margin-bottom: 0;
+    color: #444
+}
+.document-wrapper {
+    background-color: #fff;
+    box-shadow: 0 3px 35px rgba(0,0,0, .1);
+    border-radius: 7px;
+    overflow: hidden;
+
+}
+div[class*='col']:nth-child(odd) .document-item {
+    border-right: 1px solid rgba(0,0,0, .1)
+}
+div[class*='col-lg-12']:nth-child(odd) .document-item {
+    border-right: 0;
+}
+div[class*='col']:nth-child(1) .document-item {
+    border-top: 0;
+}
+div[class*='col']:nth-child(2) .document-item {
+    border-top: 0;
+}
+.document-item {
+    background-color: #fff;
+    padding: 45px 35px;
+    border-top: 1px solid rgba(0,0,0, .1);
+    height: 100%;
+}
+.document-item__icon {
+    font-size: 32px;
+    width: 35px;
+    line-height: 1px;
+}
+.document-item__content {
+    width: calc(100% - 35px);
+    padding-left: 15px;
+}
+.document-item__content .title {
+    margin-bottom: 13px;
+}
+.document-item__content .title a {
+    color: #111;
+    display: inline-block;
+}
+.document-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    max-width: 220px;
+}
+
+.page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background-color: #f6f6f6;
+    min-height: 100vh;
+}
+.page-wrapper > div,.page-wrapper > section {
+    width: 100%;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.custom--card {
+    box-shadow: 0 3px 35px rgba(0, 0, 0, .1);
+    border: 0;
+}
+
+.custom--card .card-header{
+    padding: 13px 25px;
+    text-align: center;
+    background-color: rgb(var(--main));
+    border: 0;
+}
+
+.custom--card .card-footer{
+    background: #fff
+}
+
+.custom--card .card-header .title {
+    margin-bottom: 0;
+    color: #fff
+}
+
+.custom--card .card-body {
+    padding: 25px;
+    border: 0;
+}
+
+.pagination{
+    margin-bottom: 0px;
+}
+
+.custom--card .card-footer p{
+    margin-bottom: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #555;
+}
+
+.form--control {
+    border-width: 2px;
+    border-color: #dce1e6;
+}
+
+input.form--control, select.form--control {
+    height: 45px;
+}
+
+.form--control:focus {
+    border-color: rgb(var(--main));
+    box-shadow: 0 0 25px rgba(var(--main), 0.071);
+    outline: 0;
+}
+
+.forgot-pass {
+    font-size: 14px;
+}
+
+.btn--base {
+    color: #fff;
+    background-color: rgb(var(--main));
+}
+
+.btn--base:hover {
+    color: #fff;
+}
+
+.btn {
+    padding: 12px 30px;
+    font-weight: 500;
+}
+
+/* table Css */
+.custom--table {
+    background-color: #fff;
+}
+
+.custom--table thead {
+    background-color: rgb(var(--main))
+}
+
+.custom--table thead tr th {
+    color: #fff
+}
+
+.custom--table tbody tr td,
+.custom--table thead tr th {
+    vertical-align: middle;
+    padding: 10px 20px
+}
+
+.custom--table tbody tr td:last-child {
+    text-align: right
+}
+
+.custom--table thead tr th:last-child {
+    text-align: right
+}
+
+.custom--table tbody tr:last-child {
+    border-bottom: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem !important;
+}
+
+.navbar-brand img{
+    max-width: 220px;
+}
+
+/* ====================== No Data Found In Table Start ====================== */
+.no-data-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+@media screen and (max-width: 991px) {
+    .no-data-found {
+        padding: 10px 0;
+    }
+}
+
+.no-data-found img {
+    max-width: 150px;
+    margin: 0 auto 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .no-data-found img {
+        max-width: 80px;
+        margin-bottom: 20px;
+    }
+}
+
+.no-data-found span {
+    display: block;
+    font-size: 1.125rem;
+    line-height: 1;
+    font-weight: 500;
+    color: hsl(var(--black)/0.7);
+}
+
+@media screen and (max-width: 991px) {
+    .no-data-found span {
+        font-size: 1rem;
+    }
+}
+/* ====================== No Data Found In Table End ====================== */
+
+table thead th {
+    color: #212529 !important;
+}
