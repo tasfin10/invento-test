@@ -20,5 +20,6 @@ Username : demouser <br>
 password : demouser <br>
 
 
+<a href="https://phinix.digital/invento-test/doc" target="_blank">Documentation</a><br>
 
 Regards
