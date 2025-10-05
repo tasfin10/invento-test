@@ -7,6 +7,18 @@ The Documentation folder includes server requirements, installation instructions
 
 The Files folder contains the Laravel project along with a sample database. <br>
 
-Thank you for your understanding, and I look forward to your feedback. <br>
+Below are the live project URL and details.<br>
+
+Admin login URL and credentials : <br>
+<a href="https://phinix.digital/invento-test/admin" target="_blank">Admin Panel</a><br>
+Username : admin <br>
+password : admin <br><br>
+
+User login URL and credentials : <br>
+<a href="https://phinix.digital/invento-test/user/login" target="_blank">User Panel (Houser Owner)</a><br>
+Username : demouser <br>
+password : demouser <br>
+
+
 
 Regards
